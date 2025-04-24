@@ -1,7 +1,77 @@
+:root{
+    --primary: blue
+}
+
 h1{
     color: green;
 }
 
 a:hover{
     font-size: '600px';
+}
+
+button{
+    margin-top: 10px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.centered-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+
+.link-primary{    
+    background-color: var(--primary);
+    color: white;
+}
+
+.link-secondary{
+    background-color: white;
+    border: 1px solid var(--primary); 
+    color: var(--primary);
+}
+
+.list-no-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+
+.navigation{
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem;
+}
+
+.nav-brand{
+    font-weight: bold
+}
+
+.nav-pills{
+    text-align: right;
+    color: white;
+}
+
+.nav-pills .link{
+    color: white;
+}
+
+.link-active{
+    font-weight: bold
 }
