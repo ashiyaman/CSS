@@ -9,3 +9,6 @@ Practice CSS
 - [X] Know CSS variable
 - [X] Ordered list css, list inline, list reverse
 - [X] Navbar CSS
+- [X] Block elements
+- [X] Inline elements
+- [X] Inline-block elements
