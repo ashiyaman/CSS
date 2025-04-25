@@ -12,3 +12,13 @@ Practice CSS
 - [X] Block elements
 - [X] Inline elements
 - [X] Inline-block elements
+
+
+
+### To-Do
+
+- [X] CSS - left position
+- [x] Stacked box - margin top
+- [X] Position absolute
+- [X] Border box
+- [X] Padding
