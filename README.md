@@ -29,5 +29,7 @@ Practice CSS
 - [X] CSS - Flexbox
 - [x] flex-direction
 - [X] justify-content
-- [] gap
+- [X] gap
+- [X] flex-wrap
+- [X] align-items
   
