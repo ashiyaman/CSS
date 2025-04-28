@@ -1,0 +1,46 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alignedRow{
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: center;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.col{
+    border: 1px solid purple;
+    background-color: red;
+    padding: 0.5rem;
+}
+
+.nav-items{
+    background-color: cadetblue;
+    border: 1px solid purple;
+    flex-grow: 1;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid red;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 250px;
+    padding: 0.5rem;
+}

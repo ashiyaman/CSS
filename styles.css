@@ -1,0 +1,90 @@
+.outer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray; height: 300px; width: 300px;
+}
+
+.inner-box{
+    background-color: green; height: 100px; width: 100px;;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-items{
+    border: 1px solid black;
+    list-style: none;
+    background-color: #f5f5dc;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.card{
+    align-items: center;
+    border: 1px solid red;
+    flex-direction: column;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.img-profile{
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 50%;
+    color: gray;
+    height: 150px;
+    justify-content: center;
+    width: 150px;
+}
+
+.btn{
+    background-color: #f5f5dc;
+    border: none;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+.productCard{
+    border: 1px solid lightgray;
+    flex-wrap: nowrap;
+    padding: 0.5rem;
+    max-width: 400px;
+}
+
+.testimonialCard{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.pricingCard{
+    border: 1px solid lightgray;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 0.5rem;
+}
+
+.price{
+    color: #ec8d22;
+    margin: 0px;
+}
+
+.pricingCard hr {
+    width: 120px; 
+    border: 1px solid lightgray; 
+  }
+
+
+footer ul{
+    flex: 1 1 200px;
+}
+
+footer ul li{
+    list-style: none;
+}
