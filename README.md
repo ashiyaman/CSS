@@ -22,3 +22,12 @@ Practice CSS
 - [X] Position absolute
 - [X] Border box
 - [X] Padding
+
+
+### To-Do
+
+- [X] CSS - Flexbox
+- [x] flex-direction
+- [X] justify-content
+- [] gap
+  
