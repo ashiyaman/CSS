@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <form class="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required/>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required/>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <div class="login-container">
+    <form class="login-card">
+      <h2>Login</h2>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required />
+
+      <button type="submit">Login</button>
+      <a href="#" class="forgot">Forgot Password?</a>
+    </form>
+  </div>
+
+  <div class="gallery-container">
+    <h1>Photo Gallery</h1>
+    <ul class="gallery-nav">
+      <li><a href="#" class="active">All</a></li>
+      <li><a href="#">Nature</a></li>
+      <li><a href="#">Birds</a></li>
+      <li><a href="#">Animals</a></li>
+    </ul>
+    <div class="gallery-grid">
+      <div class="gallery-item">Nature</div>
+      <div class="gallery-item">Birds</div>
+      <div class="gallery-item">Animals</div>
+    </div>
+  </div>
+
+  <div class="pricing-container">
+    <div class="pricing-card">
+      <div class="badge">1 month Free</div>
+      <h3>Basic Plan</h3>
+      <p class="price">$9.99<span>/mo</span></p>
+      <hr>
+      <ul class="features">
+        <li>Ad-free music listening</li>
+        <li>Download 10k songs/device</li>
+        <li>Login from 3 devices</li>
+      </ul>
+      <button class="signup">Sign Up</button>
+    </div>
+
+    <div class="pricing-card">
+      <div class="badge">1 month Free</div>
+      <h3>Pro Plan</h3>
+      <p class="price">$19.99<span>/mo</span></p>
+      <hr>
+      <ul class="features">
+        <li>Ad-free music listening</li>
+        <li>Download 20k songs/device</li>
+        <li>Login from 5 devices</li>
+      </ul>
+      <button class="signup">Sign Up</button>
+    </div>
+
+    <div class="pricing-card">
+      <div class="badge">1 month Free</div>
+      <h3>Enterprise Plan</h3>
+      <p class="price">$59.99<span>/mo</span></p>
+      <hr>
+      <ul class="features">
+        <li>Ad-free music listening</li>
+        <li>Download 40k songs/device</li>
+        <li>Login from unlimited devices</li>
+      </ul>
+      <button class="signup">Sign Up</button>
+    </div>
+  </div>
+
+  <div class="review-card">
+    <h1>Review Order</h1>
+
+    <div class="header-row">
+        <div>
+            <h4>ITEM</h4>    
+            <img src="https://placehold.co/50"  />
+        </div>
+        <div class="flex-right">
+            <div>
+                <h4>QTY</h4>
+                <p>1</p>
+            </div>
+            <div>
+                <h4>TOTAL</h4>
+                <p>INR 999</p>
+            </div>
+        </div>
+      
+     
+    </div>
+
+    <div class="item-desc">
+      <p>Limited addition cactus print bag</p>
+      <p>1 litre, green color</p>
+    </div>
+
+    <div class="summary">
+      <div>Subtotal</div><div><strong>INR 999</strong></div>
+      <div>GST</div><div><strong>INR 179</strong> </div>
+      <div class="grand">Grand Total</div><div class="grand">INR 1178</div>
+    </div>
+
+    <button class="place-order">PLACE ORDER</button>
+    <p class="secure">Cart Secured by Razorpay</p>
+  </div>
+</body>
+</html>

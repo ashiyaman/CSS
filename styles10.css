@@ -1,0 +1,76 @@
+/* Question 1: bg → lightgray when ≤800px, otherwise white */
+body {
+    background-color: white; /* default */
+  }
+  @media (max-width: 800px) {
+    body {
+      background-color: lightgray;
+    }
+  }
+  
+  /* Question 2: h1 → 30px when width ≥900px */
+  @media (min-width: 900px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
+  
+  /* Question 3: hide .sidebar when width ≤600px */
+  @media (max-width: 600px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  
+  /* Question 4: p → blue text when height >700px */
+  @media (min-height: 701px) {
+    p {
+      color: blue;
+    }
+  }
+  
+  /* Question 5: header → green bg when width >1000px */
+  @media (min-width: 1001px) {
+    header {
+      background-color: green;
+    }
+  }
+  
+  /* Question 6: body font-size 12px when max-height ≤500px */
+  @media (max-height: 500px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  
+  /* Question 7: footer centered when width exactly 1024px; default left */
+  footer {
+    text-align: left; /* default */
+  }
+  @media (width: 1024px) {
+    footer {
+      text-align: center;
+    }
+  }
+  
+  /* Question 8: .container width 80% when width <400px */
+  @media (max-width: 399px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
+  /* Question 9: p font-size 16px when width between 600px and 900px */
+  @media (min-width: 600px) and (max-width: 900px) {
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Question 10: links → orange when width ≥1000px */
+  @media (min-width: 1000px) {
+    a {
+      color: orange;
+    }
+  }
+  

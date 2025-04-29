@@ -1,0 +1,349 @@
+/* reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+
+/* form outer box—white, with subtle shadow and border */
+.contact-form {
+  background: #fff;
+  width: 360px;               /* same width as your screenshot */
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* labels exactly above inputs */
+.contact-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+/* inputs & textarea styling */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+/* submit button—full width, dark grey, white text */
+.contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* hover on button */
+.contact-form button:hover {
+  background: #555;
+}
+
+.login-container {
+    padding: 1rem;
+  }
+  
+  /* white card with border and shadow */
+  .login-card {
+    background: #fff;
+    width: 360px;               /* match screenshot width */
+    padding: 2rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  /* heading styling */
+  .login-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* labels above inputs */
+  .login-card label {
+    align-self: flex-start;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  /* inputs styling */
+  .login-card input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* login button—bright blue */
+  .login-card button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* hover state for button */
+  .login-card button:hover {
+    background: #0056b3;
+  }
+  
+  /* "Forgot Password?" link */
+  .login-card .forgot {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  .login-card .forgot:hover {
+    text-decoration: underline;
+  }
+
+  .gallery-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 360px;              /* match screenshot width */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    margin: 2rem;
+  }
+  
+  /* title */
+  .gallery-container h1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* nav */
+  .gallery-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .gallery-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .gallery-nav a.active {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  /* grid of cards */
+  .gallery-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  /* each card */
+  .gallery-item {
+    background: #ccc;
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+  }
+
+  .pricing-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 100%;
+    max-width: 900px;         /* maximum width of the pricing section */
+    padding: 2rem;
+    flex-wrap: nowrap;
+  }
+  
+  /* reset & box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* flex container for three cards */
+  .pricing-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  /* individual card */
+  .pricing-card {
+    background: #fff;
+    width: 260px;               /* match screenshot proportions */
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    text-align: left;
+  }
+  
+  /* top badge */
+  .pricing-card .badge {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* plan title in serif bold */
+  .pricing-card h3 {
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* price styling */
+  .pricing-card .price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .pricing-card .price span {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  /* short horizontal line under price */
+  .pricing-card hr {
+    width: 80px;
+    border: 1px solid #ccc;
+    margin: 0.75rem 0;
+  }
+  
+  /* feature list */
+  .pricing-card .features {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    color: darkgray;
+  }
+  .pricing-card .features li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Sign Up button */
+  .pricing-card .signup {
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    background: #2B2B2B;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .pricing-card .signup:hover {
+    background: #333;
+  }
+  
+
+  /* outer card with green border */
+.review-card {
+    background: #fff;
+    border: 4px solid #00C853;
+    width: 360px;             /* match screenshot */
+    padding: 1rem;
+    color: #000;
+    margin: 2rem
+  }
+  
+  /* Title */
+  .review-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* header row */
+  .header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .flex-right{
+    display: flex;
+  }
+
+  .flex-right div{
+    margin: 0.5rem;
+  }
+  
+  /* description under item */
+  .item-desc {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  /* summary lines */
+  .summary {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    row-gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .summary .grand {
+    font-weight: bold;
+  }
+  
+  /* place order button */
+  .place-order {
+    width: 100%;
+    padding: 0.75rem;
+    background: #00C853;
+    color: #fff;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .place-order:hover {
+    background: #00b245;
+  }
+  
+  /* secure text */
+  .secure {
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
